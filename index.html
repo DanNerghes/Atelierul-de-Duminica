@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="promo-banner">
+        <div class="container d-flex justify-content-center align-items-center">
+            <span class="badge bg-white text-dark me-2">NOU</span>
+            <p class="mb-0 fw-bold">Grăbește-te! Mai sunt doar 4 locuri disponibile pentru atelierul de duminica aceasta! 🎨</p>
+            <a href="#preturi" class="ms-3 text-white fw-bold text-decoration-underline">Înscrie-te acum</a>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <div>
+                <div class="logo"><img src="/assets/logo.png" alt="logo"><span>Atelierul de Duminica</span></div>
+
+            </div>
+
+            <ul class="nav-links d-flex align-items-center mb-0">
+
+                <li><a href="#">Despre atelier</a></li>
+                <li><a href="#">Beneficii</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Testimoniale</a></li>
+                <li><button class="primary-cta">Înscriere</button></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <header class="blue-grid-bg">
+        <div class="container">
+            <div class="row d-flex h-100">
+                <div class="col-6 d-flex flex-column justify-content-center h-100 pe-4">
+                    <h1>Transformă weekendul într-o amintire creată împreună</h1>
+                    <p>Atelierul de Duminică este o experiență creativă pentru părinți și copii, unde lucrul manual
+                        devine un mod simplu și frumos de a petrece timp de calitate în familie.</p>
+                    <p>În doar două ore, realizați împreună un obiect handmade, învățați prin joacă și plecați acasă cu
+                        o amintire făcută chiar de voi.</p>
+                    <div class="cta-wrapper">
+                        <button class="primary-cta">Rezervă locul familiei tale</button>
+                        <button class="secondary-cta ms-3">Vezi ce include atelierul</button>
+                    </div>
+
+                </div>
+
+                <div class="col-6 d-flex align-items-center justify-content-end ps-3"><img src="./assets/creativ_1.png"
+                        alt=""></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="preturi" class="py-5 bg-white">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Alege pachetul potrivit familiei tale</h2>
+                    <p class="text-secondary">Toate materialele și buna dispoziție sunt incluse în preț.</p>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Oferta 1: Single Parent/Copil -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm text-center p-3">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="fw-bold">Duo Creativ</h5>
+                                <p class="text-muted small">1 Părinte + 1 Copil</p>
+                                <hr>
+                                <h2 class="mb-4">120 <span class="fs-6">RON</span></h2>
+                                <ul class="list-unstyled mb-4 flex-grow-1 text-start px-2">
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Toate materialele</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>2 ore de activitate</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Obiectul creat</li>
+                                </ul>
+                                <button class="primary-cta w-100 mt-auto">Rezervă</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Oferta 2: Familia (Cea mai populară) -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 border-primary shadow text-center p-3 position-relative">
+                            <span
+                                class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary">Cel
+                                mai popular</span>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="fw-bold">Echipa Completă</h5>
+                                <p class="text-muted small">2 Părinți + 1 Copil</p>
+                                <hr>
+                                <h2 class="mb-4 text-primary">180 <span class="fs-6 text-dark">RON</span></h2>
+                                <ul class="list-unstyled mb-4 flex-grow-1 text-start px-2">
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Toate materialele</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>2 ore de activitate</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Snack-uri & apă</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Poze de grup</li>
+                                </ul>
+                                <button class="primary-cta w-100 mt-auto">Rezervă</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Oferta 3: Frați -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm text-center p-3">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="fw-bold">Frați Creativi</h5>
+                                <p class="text-muted small">1 Părinte + 2 Copii</p>
+                                <hr>
+                                <h2 class="mb-4">200 <span class="fs-6">RON</span></h2>
+                                <ul class="list-unstyled mb-4 flex-grow-1 text-start px-2">
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Materiale extra</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>2 ore de activitate</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Diplomă de creativitate</li>
+                                </ul>
+                                <button class="primary-cta w-100 mt-auto">Rezervă</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Oferta 4: Abonament (Fidelitate) -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm text-center p-3 bg-light">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="fw-bold">Abonament 4</h5>
+                                <p class="text-muted small">Abonament 4 duminici</p>
+                                <hr>
+                                <h2 class="mb-4">400 <span class="fs-6">RON</span></h2>
+                                <p class="text-success fw-bold small">Economisești 80 RON!</p>
+                                <ul class="list-unstyled mb-4 flex-grow-1 text-start px-2">
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Acces garantat</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Prioritate teme noi</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Valabil 2 luni</li>
+                                </ul>
+                                <button class="primary-cta w-100 mt-auto">Alege Abonament</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 pe-4"><img src="./assets/header2.png" alt="" class="img-fluid"></div>
+                    <div class="col-5 offset-1 ps-4 d-flex flex-column justify-content-center">
+                        <h2>Un atelier creativ pentru părinți și copii</h2>
+                        <p>Atelierul de Duminică este creat pentru familiile care vor să petreacă timp împreună într-un
+                            mod relaxat, educativ și distractiv. Activitatea este potrivită pentru copii între 5 și 12
+                            ani și nu necesită experiență anterioară în lucru manual.</p>
+                        <p>Pe parcursul atelierului, fiecare familie primește materialele necesare, îndrumare pas cu pas
+                            și libertatea de a personaliza obiectul realizat. Accentul nu este pus pe perfecțiune, ci pe
+                            colaborare, creativitate și bucuria de a crea ceva împreună.</p>
+                        <div class="cta-wrapper">
+                            <button class="primary-cta">Rezervă locul familiei tale</button>
+                            <button class="secondary-cta ms-3">Vezi ce include atelierul</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 background-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+                        <div class="d-flex flex-column align-items-center">
+                            <h2>Pentru cine este atelierul?</h2>
+                            <p>Pentru familii care vor mai mult decât o simplă activitate de weekend</p>
+                        </div>
+
+                        <div class="cards d-flex justify-content-between pt-4">
+
+                            <div class="card mx-3" style="width: 18rem;">
+                                <img src="assets/cercuri.png" class="card-img-top" alt="...">
+                                <div class="card-body h-100 d-flex justify-content-around flex-column">
+                                    <h5 class="card-title">Pentru părinți ocupați</h5>
+                                    <p class="card-text">Care vor să petreacă timp de calitate cu copilul, într-un cadru
+                                        relaxat și bine organizat.</p>
+                                    <button class="primary-cta">Înscriere</button>
+                                </div>
+                            </div>
+
+                            <div class="card mx-3" style="width: 18rem;">
+                                <img src="assets/triunghiuri.png" class="card-img-top" alt="...">
+                                <div class="card-body h-100 d-flex justify-content-around flex-column">
+                                    <h5 class="card-title">Pentru copii curioși</h5>
+                                    <p class="card-text">Care iubesc să descopere, să combine culori, forme și materiale
+                                        și să creeze ceva cu propriile mâini.</p>
+                                    <button class="primary-cta">Înscriere</button>
+                                </div>
+                            </div>
+
+                            <div class="card mx-3" style="width: 18rem;">
+                                <img src="assets/patrat.png" class="card-img-top" alt="...">
+                                <div class="card-body h-100 d-flex justify-content-around flex-column">
+                                    <h5 class="card-title">Pentru familii care vor mai puține ecrane</h5>
+                                    <p class="card-text">O alternativă practică și distractivă la timpul petrecut pe
+                                        telefon, tabletă sau televizor.</p>
+                                    <button class="primary-cta">Înscriere</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="py-5 blue-grid-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex flex-column justify-content-center">
+                        <h2>Ce include atelierul?</h2>
+                        <p>Totul este pregătit înainte ca voi să ajungeți. Trebuie doar să veniți cu bună dispoziție și
+                            dorința de a crea împreună.</p>
+                        <div class="cta-wrapper">
+                            <button class="primary-cta">Rezervă locul familiei tale</button>
+                            <button class="secondary-cta ms-3">Vezi ce include atelierul</button>
+                        </div>
+                    </div>
+                    <div class="col-5 offset-1 d-flex flex-column justify-content-center">
+                        <h5>Elemente incluse:</h5>
+
+                        <p class="mb-0"><b>1. Materiale creative incluse</b></p>
+                        <p>Fiecare familie primește toate materialele necesare pentru realizarea obiectului handmade.
+                        </p>
+
+                        <p class="mb-0"><b>2. Ghidare pas cu pas</b></p>
+                        <p>Un coordonator explică fiecare etapă într-un mod simplu, prietenos și potrivit pentru copii.
+                        </p>
+
+                        <p class="mb-0"><b>3. Obiect personalizat realizat împreună</b></p>
+                        <p>La final, plecați acasă cu un obiect creat de voi, pe care îl puteți păstra ca amintire.</p>
+
+                        <p class="mb-0"><b>4. Atmosferă relaxată și prietenoasă</b></p>
+                        <p>Atelierul este gândit ca o experiență fără presiune, în care fiecare familie lucrează în
+                            ritmul propriu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 ps-4 d-flex flex-column">
+                        <h2 class="mb-4">De ce să alegi Atelierul de Duminică?</h2>
+                        <h5><span class="label-no me-2">1</span>Petreci timp de calitate cu copilulv</h5>
+                        <p>Atelierul creează un moment în care părintele și copilul colaborează, comunică și se bucură
+                            de o activitate comună.</p>
+                        <h5><span class="label-no me-2">2</span>Stimulezi creativitatea și încrederea copilului</h5>
+                        <p>Copilul experimentează cu materiale, culori și idei proprii, într-un cadru în care este
+                            încurajat să încerce și să se exprime liber.</p>
+                        <h5><span class="label-no me-2">3</span>Reduci timpul petrecut în fața ecranelor</h5>
+                        <p>Activitatea oferă o alternativă educativă, practică și distractivă pentru timpul liber din
+                            weekend.</p>
+                        <h5><span class="label-no me-2">4</span>Plecați acasă cu o amintire creată împreună</h5>
+                        <p>Obiectul realizat devine mai mult decât un simplu produs handmade: este o amintire a timpului
+                            petrecut în familie.</p>
+                        <div class="cta-wrapper">
+                            <button class="primary-cta">Rezervă locul familiei tale</button>
+                            <button class="secondary-cta ms-3">Vezi ce include atelierul</button>
+                        </div>
+                    </div>
+                    <div class="col-5 offset-1 pe-4 align-items-center d-flex"><img src="./assets/img_2.png" alt=""
+                            class="img-fluid"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center">
+
+                        <!-- Card Rating -->
+                        <div class="card shadow-sm border-0 p-4">
+                            <div class="card-body">
+                                <h5 class="text-muted mb-3">Evaluarea clienților noștri</h5>
+
+                                <div class="d-flex align-items-center justify-content-center mb-2">
+                                    <!-- Valoarea numerică -->
+                                    <span class="display-4 fw-bold me-3">4.9</span>
+
+                                    <!-- Grupul de stele -->
+                                    <div class="text-warning fs-3">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                </div>
+
+                                <p class="text-secondary mb-0">
+                                    Bazat pe peste <strong>143 recenzii</strong>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimoniale" class="py-5 blue-grid-bg">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Ce spun părinții despre noi</h2>
+                    <p class="">Experiențe reale de la familiile care ne-au vizitat atelierul</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow-sm p-3">
+                            <div class="card-body">
+                                <div class="text-warning mb-2">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="card-text">"O experiență minunată! Am reușit să mă deconectez de telefon și să
+                                    creez ceva cu mâinile mele alături de cel mic. Recomand cu drag!"</p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width: 40px; height: 40px;">M</div>
+                                    <div class="ms-3">
+                                        <h6 class="mb-0">Maria Ionescu</h6>
+                                        <small class="text-muted">Mama lui Luca (7 ani)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow-sm p-3">
+                            <div class="card-body">
+                                <div class="text-warning mb-2">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p class="card-text">"Am fost surprins de cât de răbdător a fost coordonatorul. Totul a
+                                    fost organizat perfect, iar obiectul realizat are acum loc de cinste în living."</p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width: 40px; height: 40px;">A</div>
+                                    <div class="ms-3">
+                                        <h6 class="mb-0">Andrei Popescu</h6>
+                                        <small class="text-muted">Tatăl Mayei (5 ani)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow-sm p-3">
+                            <div class="card-body">
+                                <div class="text-warning mb-2">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i>
+                                </div>
+                                <p class="card-text">"Cea mai frumoasă duminică din ultima lună. Copiii au fost
+                                    fascinați de materiale. Abia așteptăm ediția următoare!"</p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <div class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center"
+                                        style="width: 40px; height: 40px;">E</div>
+                                    <div class="ms-3">
+                                        <h6 class="mb-0">Elena Vasilescu</h6>
+                                        <small class="text-muted">Mama Sophiei (9 ani)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-5 background-gray">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-5">
+                            <h2 class="fw-bold">Întrebări Frecvente</h2>
+                            <p class="text-muted">Tot ce trebuie să știi despre experiența la Atelierul de Duminică</p>
+                        </div>
+
+                        <div class="accordion shadow-sm" id="accordionAtelier">
+
+                            <!-- Întrebarea 1 -->
+                            <div class="accordion-item border-0 mb-2 shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        Pentru ce vârste sunt potrivite atelierele?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionAtelier">
+                                    <div class="accordion-body">
+                                        Activitățile noastre sunt concepute special pentru copii cu vârste între
+                                        <strong>5 și 12 ani</strong>. Nivelul de dificultate este adaptat astfel încât
+                                        cei mici să poată lucra singuri în proporție de 80%, primind ajutor de la
+                                        părinți pentru detaliile complexe.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Întrebarea 2 -->
+                            <div class="accordion-item border-0 mb-2 shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        Trebuie să aducem materiale de acasă?
+                                    </button>
+                                </h2>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionAtelier">
+                                    <div class="accordion-body">
+                                        <strong>Nu.</strong> Noi punem la dispoziție absolut tot: de la pensule, vopsele
+                                        și lipici, până la elemente decorative și șorțuri de protecție. Voi trebuie să
+                                        veniți doar cu voie bună!
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Întrebarea 3 -->
+                            <div class="accordion-item border-0 mb-2 shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq3">
+                                        Cât durează o sesiune și unde are loc?
+                                    </button>
+                                </h2>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionAtelier">
+                                    <div class="accordion-body">
+                                        Un atelier durează aproximativ <strong>2 ore</strong>. Ne desfășurăm activitatea
+                                        în studioul nostru primitor din centrul orașului (Strada Creativității nr. 14),
+                                        un spațiu sigur și special amenajat pentru copii.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Întrebarea 4 -->
+                            <div class="accordion-item border-0 mb-2 shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq4">
+                                        Se pot înscrie și bunicii sau alți aparținători?
+                                    </button>
+                                </h2>
+                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionAtelier">
+                                    <div class="accordion-body">
+                                        Desigur! Scopul nostru este să facilităm conexiunea între copil și un adult drag
+                                        din familie. Bunicii, mătușile sau unchii sunt mai mult decât bineveniți să
+                                        participe alături de cei mici.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Întrebarea 5 -->
+                            <div class="accordion-item border-0 mb-2 shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq5">
+                                        Ce se întâmplă dacă am rezervat și nu mai putem ajunge?
+                                    </button>
+                                </h2>
+                                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionAtelier">
+                                    <div class="accordion-body">
+                                        Înțelegem că planurile cu copiii se pot schimba. Dacă ne anunțați cu cel puțin
+                                        <strong>24 de ore înainte</strong>, putem reprograma participarea voastră pentru
+                                        ediția următoare sau vă putem returna suma achitată.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Întrebarea 6 -->
+                            <div class="accordion-item border-0 shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq6">
+                                        Pot veni cu doi copii singur(ă)?
+                                    </button>
+                                </h2>
+                                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordionAtelier">
+                                    <div class="accordion-body">
+                                        Sigur că da. Pentru această situație recomandăm pachetul <strong>"Frați
+                                            Creativi"</strong>. Instructorii noștri vor fi acolo să vă ofere un plus de
+                                        ajutor dacă aveți nevoie să vă împărțiți atenția între cei doi mici artiști.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <!-- Coloana 1: Despre -->
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <div class="logo mb-3">
+                        <img src="/assets/logo.png" alt="logo" style="width: 40px;">
+                        <span class="ms-2 fw-bold fs-5">Atelierul de Duminică</span>
+                    </div>
+                    <p class="text-secondary">
+                        Creăm spațiul și contextul în care părinții și copiii se reconectează prin creativitate și
+                        joacă. Te așteptăm în fiecare duminică!
+                    </p>
+                    <div class="social-links fs-4">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Coloana 2: Link-uri rapide -->
+                <div class="col-6 col-md-2 offset-md-1 mb-4 mb-md-0">
+                    <h6 class="fw-bold mb-3">Navigare</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Despre atelier</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Beneficii</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Program</a></li>
+                        <li class="mb-2"><a href="#testimoniale"
+                                class="text-secondary text-decoration-none">Testimoniale</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coloana 3: Contact & Locație -->
+                <div class="col-6 col-md-4 offset-md-1">
+                    <h6 class="fw-bold mb-3">Contact</h6>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2">
+                            <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+                            Strada Creativității nr. 14, Brașov
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-telephone-fill me-2 text-primary"></i>
+                            +40 722 222 222
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-envelope-fill me-2 text-primary"></i>
+                            contact@atelierulduminica.ro
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-clock-fill me-2 text-primary"></i>
+                            Duminica: 10:00 - 18:00
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4 border-secondary">
+
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start small text-secondary">
+                    &copy; 2026 Atelierul de Duminică. Toate drepturile rezervate.
+                </div>
+                <div class="col-md-6 text-center text-md-end small text-secondary">
+                    Realizat cu <i class="bi bi-heart-fill text-danger"></i> pentru familii creative.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+.navbar {
+    position: sticky!important;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    white-space: nowrap;
+}
+.logo img{
+    max-width: 80px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #009fdf;
+}
+
+.btn-inscriere {
+  background-color: #009fdf;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+header {
+    display: flex;
+    height: 65vh;
+}
+
+.blue-grid-bg {
+    color: #fff!important;
+    background: #009fdf;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .2) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, .2) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+header img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.primary-cta {
+    background-color: #ffdc00;
+    color: #111 !important;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 9999px;
+    padding: 8px 16px 8px 16px;
+    font-weight: bold;
+}
+.primary-cta:hover {
+    background-color: #ffea5e;
+}
+.secondary-cta {
+    background-color: #fff;
+    color: #111 !important;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 9999px;
+    padding: 8px 16px 8px 16px;
+    font-weight: bold;
+}
+
+.secondary-cta:hover {
+    background-color: #f0f0f0;
+    color: #000 !important;
+}
+.background-gray {
+    background-color: #fcf9f9;
+}
+
+.card {
+    height: 400px;
+}
+
+.label-no {
+    background-color: #009fdf;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.bi-star-fill, .bi-star-half {
+    color: #ffdc00; 
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e7f6fd;
+    color: #009fdf;
+}
+
+.promo-banner {
+    background-color: #ffdc00; 
+    color: #111;
+    padding: 10px 0;
+    font-size: 14px;
+    z-index: 1050; 
+    position: relative;
+}
+
+
+.navbar {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.promo-banner {
+    position: sticky;
+    top: 0;
+}
+.navbar {
+    top: 44px; 
+}
